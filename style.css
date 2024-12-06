@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  text-decoration: none;
+}
+
+header {
+  background-image: url(img/bg_header.jpg);
+  background-size: cover;
+  height: 620px;
+  width: 100%;
+}
+
+.logoheader {
+  display: flex;
+  height: 88%;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoheader img {
+  height: 40%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #fdc88a;
+  height: 12%;
+}
+
+.nav1 {
+  display: flex;
+  column-gap: 100px;
+  width: 53%;
+  justify-content: flex-end;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  width: 47%;
+}
+.fa-solid {
+  color: #fdc88a;
+}
+.search button {
+  background-color: #ab4842;
+  border: none;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+}
+a {
+  color: #ab4842;
+}
+
+input,
+value {
+  color: #ab4842;
+  font-size: 16px;
+  border: 1px solid #ab4842;
+}
+
+input {
+  background-color: transparent;
+  width: 30%;
+}
+
+body {
+  background-color: #3c3c3c;
+}
+
+.ssd {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 420px 420px 420px;
+  gap: 28px;
+  grid-template-rows: 225px 225px 225px;
+}
+.phototxt {
+  padding: 80px;
+}
+.ssd img {
+  width: 100%;
+}
