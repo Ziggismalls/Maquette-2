@@ -1,6 +1,7 @@
 * {
   margin: 0;
   text-decoration: none;
+  list-style: none;
 }
 
 header {
@@ -15,6 +16,7 @@ header {
   height: 88%;
   align-items: center;
   justify-content: center;
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .logoheader img {
@@ -30,7 +32,7 @@ header {
 
 .nav1 {
   display: flex;
-  column-gap: 100px;
+  column-gap: 95px;
   width: 53%;
   justify-content: flex-end;
 }
@@ -51,6 +53,7 @@ header {
 }
 a {
   color: #ab4842;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 input,
@@ -58,6 +61,7 @@ value {
   color: #ab4842;
   font-size: 16px;
   border: 1px solid #ab4842;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 input {
@@ -69,16 +73,163 @@ body {
   background-color: #3c3c3c;
 }
 
+.phototxt {
+  padding: 80px;
+}
+
 .ssd {
   display: grid;
   justify-content: center;
   grid-template-columns: 420px 420px 420px;
+  grid-template-rows: repeat(10, 300px);
   gap: 28px;
-  grid-template-rows: 225px 225px 225px;
 }
-.phototxt {
-  padding: 80px;
-}
-.ssd img {
+.timg {
   width: 100%;
+}
+.tacos {
+  position: relative;
+  grid-column: 1/3;
+}
+.border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.borderart,
+p {
+  color: #fdc88a;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+}
+.borderart {
+  border-top: 2px solid #ab4842;
+  width: 100%;
+}
+.tacimg {
+  width: 100%;
+}
+.toque {
+  width: 100px;
+  position: absolute;
+  top: 44%;
+  left: 45%;
+}
+.recettechicken {
+  margin-top: -5px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c2c57e;
+  gap: 20px;
+}
+.RECETTE {
+  font-size: 25px;
+  color: #ab4842;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.CT {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3c3c3c;
+}
+.JD {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lorem {
+  color: #3c3c3c;
+  width: 85%;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.LP {
+  background-color: #ab4842;
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+.me {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+  height: fit-content;
+  color: #3c3c3c;
+}
+.me img {
+  width: 100%;
+  height: 55%;
+}
+.metxt {
+  position: absolute;
+  bottom: 20%;
+}
+.mesujet {
+  color: #3c3c3c;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.mesujet1 {
+  color: #3c3c3c;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.socialm {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 30px;
+  width: 100%;
+}
+.fa-brands {
+  display: flex;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.cat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  grid-column: 3/4;
+}
+.catégories {
+  border-top: 2px solid #ab4842;
+  width: 100%;
+  margin: 10px;
+}
+.alcjustbio {
+  grid-column: 3/4;
+  height: fit-content;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  padding-right: 40px;
+  margin-left: -30px;
+}
+.fa-arrow-right {
+  color: white;
+  font-size: 30px;
 }
