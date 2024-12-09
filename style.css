@@ -421,7 +421,8 @@ li {
 
 footer {
   position: relative;
-  background-image: url(img/bg_footer.jpg);
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(img/Calque.png);
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -431,7 +432,6 @@ footer {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 .adefooter {
   display: flex;
